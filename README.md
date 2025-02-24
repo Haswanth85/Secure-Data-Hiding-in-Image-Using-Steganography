@@ -1,2 +1,32 @@
-# Secure Data Hiding in Image Using Steganography
- A simple steganography project that encrypts and decrypts messages in images with password protection using Python, OpenCV, and cryptography. Includes a Tkinter-based GUI for easy use.
+# Secure Image Steganography  
+
+This project enables secure message hiding in images using steganography and password-based encryption. It provides a GUI interface for easy encryption and decryption.  
+
+## **Installation & Usage**  
+
+1. Install the required packages:  
+   
+   pip install opencv-python cryptography pillow
+
+2.Clone the repository and navigate to the project folder:
+
+git clone https://github.com/yourusername/steganography.git
+cd steganography
+
+3.Run the GUI:
+
+python interface.py
+Select an image for encryption, enter the message and password, then encrypt the image.
+
+4. For decryption, provide the encrypted image and correct password to retrieve the original message.
+
+Requirements
+Python 3.7+
+OpenCV
+Cryptography
+Pillow
+Tkinter (included with Python)
+
+License
+This project is open-source and free to use.
+
